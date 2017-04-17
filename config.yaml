@@ -1,4 +1,4 @@
-BaseUrl: "http://open-data.github.io"
+BaseUrl: "https://open-data.github.io"
 ContentDir: "content"
 LayoutDir: "layouts"
 PublishDir: "public"
