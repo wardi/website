@@ -38,7 +38,7 @@ Params:
   DateForm: "2006-01-02"
   disqusShortname: "open-data"
   GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
-  Github: "open-data/od"
+  Github: "open-data/website"
   Search: "open-data.github.io"
   ShowRelatedPost: True
   Slogan: "Portfolio site for Open Data @ Canada"
