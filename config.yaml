@@ -1,0 +1,52 @@
+BaseUrl: "http://open-data.github.io"
+ContentDir: "content"
+LayoutDir: "layouts"
+PublishDir: "public"
+BuildDrafts: true
+LanguageCode: "en-us"
+Title: "Open Data"
+PluralizeListTitles: False
+menu:
+  main:
+    - Name: "CKAN"
+      Weight: -110
+      Identifier: "ckan"
+      URL: "/ckan/"
+    - Name: "Roadmap for CKAN"
+      Parent: "ckan"
+      Weight: -100
+      URL: "/ckan/roadmap/"
+    - Name: "Drupal"
+      Weight: -105
+      Identifier: "drupal"
+      URL: "/drupal/"
+    - Name: "Roadmap for Drupal"
+      Parent: "drupal"
+      Weight: -100
+      URL: "/drupal/roadmap/"
+    - Name: "Team"
+      Weight: -100
+      Identifier: "team"
+      URL: "/team/"
+    - Name: "Help"
+      Weight: -100
+      Identifier: "help"
+      URL: "/help/"
+Params:
+  Author: "Open Data Team"
+  Banner: "Providing information on work being done by the Open Data team!"
+  DateForm: "2006-01-02"
+  disqusShortname: "open-data"
+  GoogleAnalyticsUserID: "XXXX-XXXX-XXXX"
+  Github: "open-data/od"
+  Search: "open-data.github.io"
+  ShowRelatedPost: True
+  Slogan: "Portfolio site for Open Data @ Canada"
+  SyntaxHighlightTheme: "monokai.min.css"
+  Theme: "theme-gcweb"
+  Twitter: "OpenGovCan"
+Indexes:
+  tag: "tags"
+permalinks:
+  post: /post/:year/:month/:day/:title/
+MetadataFormat: "yaml"
